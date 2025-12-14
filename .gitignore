@@ -1,0 +1,67 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnpm-store
+/.local
+/.yarn
+/.cache
+
+# next.js
+/.next/
+/out/
+/.serve
+/.vercel/output
+
+# build & production
+/build
+/dist
+
+# debug & logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+debug.log
+*.log
+
+# environment files
+.env
+.env.*
+.env.local
+.env.development
+.env.production
+.env.test
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# backups / temp files
+backup/
+tmp/
+temp/
+__pycache__/
+*.bak
+*.old
+*.zip
+*.tar
+*.tar.gz
+
+# IDE & system files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# Git LFS large files (optional)
+# (you’ll track these manually using `git lfs track`)
+# *.pdf
+# *.mp4
+# *.zip
+# *.pkl
+# assets/**
